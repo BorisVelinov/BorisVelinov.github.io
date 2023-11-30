@@ -1,4 +1,4 @@
-/*https://www.wix.com/*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
@@ -10,7 +10,7 @@ body {
   background-image: url("./img/site\ background.png");
   background: cover;
   background-position: bottom;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   font-family: 'Noto Sans', sans-serif;
 
 }
