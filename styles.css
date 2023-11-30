@@ -122,7 +122,7 @@ body {
   height: 100%;
 }
 
-.Timeline_button ::before {
+.Timeline_button {
 
     position: relative;
     text-decoration: none;
@@ -132,19 +132,6 @@ body {
     z-index: 2;
     padding: 8px;
     box-shadow: 4px 4px 0px #60656b;
-
-}
-
-.Timeline_button ::after {
-
-  position: relative;
-  text-decoration: none;
-  margin-left: 50px;
-  margin-right: 50px;
-  background: black;
-  z-index: 2;
-  padding: 8px;
-  box-shadow: 4px 4px 0px #60656b;
 
 }
 
