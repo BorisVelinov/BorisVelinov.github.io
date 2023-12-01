@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 
@@ -7,10 +6,9 @@
 
 body {
   
-  background-image: url("./img/siteBackground.png"), url();
-  background: cover;
-  background-position: bottom;
-  background-repeat: no-repeat; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.65)), url("img/LongSIteThingy.png");
+  background-size: cover;
+  background-position: bottom;  
   font-family: 'Noto Sans', sans-serif;
 
 }
@@ -105,7 +103,7 @@ body {
 
 #Timeline {
     position: relative;
-    background: #346beb;
+    background: rgba(47, 79, 79);
     align-items: center;
     height: 60px;
     display: flex;
@@ -137,11 +135,17 @@ body {
     text-decoration: none;
     margin-left: 50px;
     margin-right: 50px;
-    background: black;
+    background: rgba(0,0,0,0.1);
     z-index: 2;
     padding: 8px;
-    box-shadow: 4px 4px 0px #60656b;
+    transition: all 0.2s;
 
+}
+
+.Timeline_button:hover{
+  background: rgba(0,0,0,0.3);   
+  box-shadow: 4px 4px 0px #60656b;
+  transition: all 0.3s;
 }
 
 .Timeline_button text {
