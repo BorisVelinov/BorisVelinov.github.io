@@ -10,7 +10,6 @@ body {
   background-image: url("./img/siteBackground.png"), url();
   background: cover;
   background-position: bottom;
-  background-repeat: no-repeat; 
   font-family: 'Noto Sans', sans-serif;
 
 }
