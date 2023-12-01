@@ -4,8 +4,9 @@
 
 /*От тук започват всички "id" на за всички "body" страници до: "Край_1"*/
 
+
 body {
-  overflow-y: hidden;
+  overflow-x: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.65)), url("img/LongSIteThingy.png");
   background-size: cover;
   background-position: bottom;  
