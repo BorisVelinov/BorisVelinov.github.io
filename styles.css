@@ -16,6 +16,7 @@ body {
   width: 100%;
   height: 100%;
   align-items: center;
+  
 
 }
 
@@ -250,13 +251,13 @@ body {
   flex: 7;
 }
 .gallery-container .item:first-of-type {
-  background-image: url(img/Screenshot\ menu.png);
+  background-image: url(img/Кубрат\ и\ синове.jpg);
 }
 .gallery-container .item:nth-of-type(2) {
-  background-image: url(img/Screenshot\ osnovna\ chast.png);
+  background-image: url(img/old\ bulgaria.jpg);
 }
 .gallery-container .item:nth-of-type(3) {
-  background-image: url(img/Screenshot\ levski\ ograda.png);
+  background-image: url(img/Obesvaneto-na-Vasil-Levski.jpg);
 }
 
 /*Разгръщащите се изображения в началната страница. "Край"*/
